@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
      "compilerOptions": {
        "baseUrl": ".",
@@ -12,4 +13,20 @@
        "node_modules",
        "public"
      ]
+=======
+{
+     "compilerOptions": {
+       "baseUrl": ".",
+       "paths": {
+         "@/*": [
+           "resources/js/*"
+         ]
+       },
+       "jsx": "preserve",
+     },
+     "exclude": [
+       "node_modules",
+       "public"
+     ]
+>>>>>>> 098134a71bb3832a755457c13de491ddef5bb221
    }

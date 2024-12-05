@@ -16500,7 +16500,11 @@ namespace Illuminate\Support\Facades {
          * @param string $separator
          * @return bool 
          * @static 
+<<<<<<< HEAD
          */        public static function prepend($path, $data, $separator = '
+=======
+         */        public static function prepend($path, $data, $separator = '
+>>>>>>> 098134a71bb3832a755457c13de491ddef5bb221
 ')
         {            //Method inherited from \Illuminate\Filesystem\FilesystemAdapter         
                         /** @var \Illuminate\Filesystem\LocalFilesystemAdapter $instance */
@@ -16514,7 +16518,11 @@ namespace Illuminate\Support\Facades {
          * @param string $separator
          * @return bool 
          * @static 
+<<<<<<< HEAD
          */        public static function append($path, $data, $separator = '
+=======
+         */        public static function append($path, $data, $separator = '
+>>>>>>> 098134a71bb3832a755457c13de491ddef5bb221
 ')
         {            //Method inherited from \Illuminate\Filesystem\FilesystemAdapter         
                         /** @var \Illuminate\Filesystem\LocalFilesystemAdapter $instance */
